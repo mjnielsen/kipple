@@ -11,6 +11,10 @@
 		4CB3A9D91AC6EB4A00BE16C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3A9D81AC6EB4A00BE16C6 /* Images.xcassets */; };
 		4CB3A9DC1AC6EB4A00BE16C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3A9DA1AC6EB4A00BE16C6 /* MainMenu.xib */; };
 		4CB3A9E81AC6EB4A00BE16C6 /* KippleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3A9E71AC6EB4A00BE16C6 /* KippleTests.swift */; };
+		4CB3A9F31AC6EBEE00BE16C6 /* Diceware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3A9F11AC6EBEE00BE16C6 /* Diceware.swift */; };
+		4CB3A9F41AC6EBEE00BE16C6 /* diceware.wordlist.asc in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3A9F21AC6EBEE00BE16C6 /* diceware.wordlist.asc */; };
+		4CD56B001AC8976400ED2B96 /* Icon-512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD56AFF1AC8976400ED2B96 /* Icon-512@2x.png */; };
+		4CE1D8A61AC837F100FB45CF /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1D8A51AC837F100FB45CF /* eye.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,10 @@
 		4CB3A9E11AC6EB4A00BE16C6 /* KippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3A9E61AC6EB4A00BE16C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB3A9E71AC6EB4A00BE16C6 /* KippleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KippleTests.swift; sourceTree = "<group>"; };
+		4CB3A9F11AC6EBEE00BE16C6 /* Diceware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diceware.swift; sourceTree = "<group>"; };
+		4CB3A9F21AC6EBEE00BE16C6 /* diceware.wordlist.asc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diceware.wordlist.asc; sourceTree = "<group>"; };
+		4CD56AFF1AC8976400ED2B96 /* Icon-512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-512@2x.png"; path = "Images.xcassets/AppIcon.appiconset/Icon-512@2x.png"; sourceTree = "<group>"; };
+		4CE1D8A51AC837F100FB45CF /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eye.png; path = ../eye.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +82,12 @@
 			isa = PBXGroup;
 			children = (
 				4CB3A9D61AC6EB4A00BE16C6 /* AppDelegate.swift */,
+				4CB3A9F11AC6EBEE00BE16C6 /* Diceware.swift */,
+				4CB3A9F21AC6EBEE00BE16C6 /* diceware.wordlist.asc */,
 				4CB3A9D81AC6EB4A00BE16C6 /* Images.xcassets */,
 				4CB3A9DA1AC6EB4A00BE16C6 /* MainMenu.xib */,
+				4CD56AFF1AC8976400ED2B96 /* Icon-512@2x.png */,
+				4CE1D8A51AC837F100FB45CF /* eye.png */,
 				4CB3A9D41AC6EB4A00BE16C6 /* Supporting Files */,
 			);
 			path = Kipple;
@@ -187,7 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB3A9D91AC6EB4A00BE16C6 /* Images.xcassets in Resources */,
+				4CE1D8A61AC837F100FB45CF /* eye.png in Resources */,
 				4CB3A9DC1AC6EB4A00BE16C6 /* MainMenu.xib in Resources */,
+				4CB3A9F41AC6EBEE00BE16C6 /* diceware.wordlist.asc in Resources */,
+				4CD56B001AC8976400ED2B96 /* Icon-512@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB3A9D71AC6EB4A00BE16C6 /* AppDelegate.swift in Sources */,
+				4CB3A9F31AC6EBEE00BE16C6 /* Diceware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +409,7 @@
 				4CB3A9ED1AC6EB4A00BE16C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CB3A9EE1AC6EB4A00BE16C6 /* Build configuration list for PBXNativeTarget "KippleTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +418,7 @@
 				4CB3A9F01AC6EB4A00BE16C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
