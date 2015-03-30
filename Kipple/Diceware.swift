@@ -38,6 +38,7 @@ class Diceware {
     :returns: UInt
     */
     func roll(low: Int = 1, high: Int = 6) -> Int {
+
         var randomBytes = UnsafeMutablePointer<UInt8>.alloc(4)
         
         var rand: UInt32 = UInt32(pow(2.0, 32.0) - 1)
