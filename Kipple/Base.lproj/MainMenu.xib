@@ -241,7 +241,7 @@
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8fT-kZ-pJk">
                                 <rect key="frame" x="211" y="26" width="31" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="v0.1" id="ksU-2V-0YJ">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="v1.0" id="ksU-2V-0YJ">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -257,7 +257,7 @@
                             </textField>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V7Q-fY-S1M">
                                 <rect key="frame" x="20" y="17" width="64" height="64"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Icon-512" id="pM3-me-x2w"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icon_256x256" id="pM3-me-x2w"/>
                             </imageView>
                         </subviews>
                     </visualEffectView>
@@ -313,16 +313,16 @@
         </window>
         <window title="Help" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="QkM-7H-0iN">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
-            <rect key="contentRect" x="163" y="199" width="480" height="381"/>
+            <rect key="contentRect" x="163" y="199" width="480" height="415"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
-            <value key="minSize" type="size" width="480" height="381"/>
-            <value key="maxSize" type="size" width="480" height="381"/>
+            <value key="minSize" type="size" width="480" height="415"/>
+            <value key="maxSize" type="size" width="480" height="415"/>
             <view key="contentView" id="BEe-dL-zuS">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="381"/>
+                <rect key="frame" x="0.0" y="0.0" width="480" height="415"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <visualEffectView fixedFrame="YES" blendingMode="behindWindow" material="appearanceBased" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="YBF-fE-61h">
-                        <rect key="frame" x="0.0" y="283" width="480" height="98"/>
+                        <rect key="frame" x="0.0" y="317" width="480" height="98"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="APu-cv-E9t">
                                 <rect key="frame" x="90" y="21" width="340" height="51"/>
@@ -334,18 +334,18 @@
                             </textField>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJQ-Fk-Gck">
                                 <rect key="frame" x="20" y="17" width="64" height="64"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Icon-512" id="UIR-V6-7kK"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icon_256x256" id="UIR-V6-7kK"/>
                             </imageView>
                         </subviews>
                     </visualEffectView>
                     <box verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="D3f-ui-vs0">
-                        <rect key="frame" x="0.0" y="281" width="480" height="5"/>
+                        <rect key="frame" x="0.0" y="315" width="480" height="5"/>
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <font key="titleFont" metaFont="system"/>
                     </box>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Bt-i8-SQw">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="283"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="317"/>
                         <textFieldCell key="cell" enabled="NO" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" drawsBackground="YES" id="qtx-Lc-Jco">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -353,7 +353,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xm4-jB-Bc3">
-                        <rect key="frame" x="20" y="217" width="440" height="51"/>
+                        <rect key="frame" x="20" y="251" width="440" height="51"/>
                         <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" drawsBackground="YES" id="9Pr-mb-KTm">
                             <font key="font" metaFont="system"/>
                             <string key="title">Kipple is a diceware passphrase generator. It selects a specificed number of words at random from a list of 7,776 commonly used words and phrases.</string>
@@ -362,7 +362,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mx0-nB-Dn2">
-                        <rect key="frame" x="20" y="156" width="440" height="51"/>
+                        <rect key="frame" x="20" y="190" width="440" height="51"/>
                         <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" drawsBackground="YES" id="sxb-aY-ZSo">
                             <font key="font" metaFont="system"/>
                             <string key="title">Once you've generated a passphrase, write it down somewhere. Refer to that written note until you have memorised the passphrase, then burn the note and flush it down the toilet.</string>
@@ -371,7 +371,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bWO-GU-yC0">
-                        <rect key="frame" x="20" y="95" width="440" height="51"/>
+                        <rect key="frame" x="20" y="129" width="440" height="51"/>
                         <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" drawsBackground="YES" id="mWr-Yu-H6k">
                             <font key="font" metaFont="system"/>
                             <string key="title">If you want a passphrase that's appropriate for 2015, generate one having at least 6 words. Include a special character too, if you will be able to remember it.</string>
@@ -380,21 +380,21 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iPr-qe-7wh">
-                        <rect key="frame" x="20" y="17" width="440" height="68"/>
+                        <rect key="frame" x="20" y="17" width="440" height="102"/>
                         <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" drawsBackground="YES" id="DkH-hJ-A89">
                             <font key="font" metaFont="system"/>
-                            <string key="title">To learn more about diceware, check out the original website, which explains how dicewas passphrases are generated and some of the advantages (http://world.std.com/~reinhold/diceware.html). Also see xkcd #936 (https://xkcd.com/936/).</string>
+                            <string key="title">If you want to know more about Kipple, check out the website: mjnielsen.github.io/kipple. To learn more about diceware, check out the original website, which explains how diceware passphrases are generated and some of the advantages of using a diceware passphrase (http://world.std.com/~reinhold/diceware.html). Also see xkcd #936 (https://xkcd.com/936/).</string>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="-8" y="1037.5"/>
+            <point key="canvasLocation" x="-8" y="1054.5"/>
         </window>
     </objects>
     <resources>
-        <image name="Icon-512" width="512" height="512"/>
         <image name="eye" width="12.800000190734863" height="12.800000190734863"/>
+        <image name="icon_256x256" width="128" height="128"/>
     </resources>
 </document>

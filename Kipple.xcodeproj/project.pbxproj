@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C7CAD561AC9CBFC0009DDC5 /* icon_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CAD551AC9CBFC0009DDC5 /* icon_256x256.png */; };
 		4CB3A9D71AC6EB4A00BE16C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3A9D61AC6EB4A00BE16C6 /* AppDelegate.swift */; };
 		4CB3A9D91AC6EB4A00BE16C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3A9D81AC6EB4A00BE16C6 /* Images.xcassets */; };
 		4CB3A9DC1AC6EB4A00BE16C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3A9DA1AC6EB4A00BE16C6 /* MainMenu.xib */; };
 		4CB3A9E81AC6EB4A00BE16C6 /* KippleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3A9E71AC6EB4A00BE16C6 /* KippleTests.swift */; };
 		4CB3A9F31AC6EBEE00BE16C6 /* Diceware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3A9F11AC6EBEE00BE16C6 /* Diceware.swift */; };
 		4CB3A9F41AC6EBEE00BE16C6 /* diceware.wordlist.asc in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3A9F21AC6EBEE00BE16C6 /* diceware.wordlist.asc */; };
-		4CD56B001AC8976400ED2B96 /* Icon-512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD56AFF1AC8976400ED2B96 /* Icon-512@2x.png */; };
 		4CE1D8A61AC837F100FB45CF /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1D8A51AC837F100FB45CF /* eye.png */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C7CAD551AC9CBFC0009DDC5 /* icon_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_256x256.png; path = Images.xcassets/AppIcon.appiconset/icon_256x256.png; sourceTree = "<group>"; };
 		4CB3A9D11AC6EB4A00BE16C6 /* Kipple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kipple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3A9D51AC6EB4A00BE16C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB3A9D61AC6EB4A00BE16C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +39,7 @@
 		4CB3A9E71AC6EB4A00BE16C6 /* KippleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KippleTests.swift; sourceTree = "<group>"; };
 		4CB3A9F11AC6EBEE00BE16C6 /* Diceware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diceware.swift; sourceTree = "<group>"; };
 		4CB3A9F21AC6EBEE00BE16C6 /* diceware.wordlist.asc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diceware.wordlist.asc; sourceTree = "<group>"; };
-		4CD56AFF1AC8976400ED2B96 /* Icon-512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-512@2x.png"; path = "Images.xcassets/AppIcon.appiconset/Icon-512@2x.png"; sourceTree = "<group>"; };
+		4CD56B011AC9B64C00ED2B96 /* Kipple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Kipple.entitlements; sourceTree = "<group>"; };
 		4CE1D8A51AC837F100FB45CF /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eye.png; path = ../eye.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,13 +82,14 @@
 		4CB3A9D31AC6EB4A00BE16C6 /* Kipple */ = {
 			isa = PBXGroup;
 			children = (
+				4CD56B011AC9B64C00ED2B96 /* Kipple.entitlements */,
 				4CB3A9D61AC6EB4A00BE16C6 /* AppDelegate.swift */,
 				4CB3A9F11AC6EBEE00BE16C6 /* Diceware.swift */,
 				4CB3A9F21AC6EBEE00BE16C6 /* diceware.wordlist.asc */,
 				4CB3A9D81AC6EB4A00BE16C6 /* Images.xcassets */,
 				4CB3A9DA1AC6EB4A00BE16C6 /* MainMenu.xib */,
-				4CD56AFF1AC8976400ED2B96 /* Icon-512@2x.png */,
 				4CE1D8A51AC837F100FB45CF /* eye.png */,
+				4C7CAD551AC9CBFC0009DDC5 /* icon_256x256.png */,
 				4CB3A9D41AC6EB4A00BE16C6 /* Supporting Files */,
 			);
 			path = Kipple;
@@ -167,6 +169,12 @@
 				TargetAttributes = {
 					4CB3A9D01AC6EB4A00BE16C6 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = E592MJJRAU;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					4CB3A9E01AC6EB4A00BE16C6 = {
 						CreatedOnToolsVersion = 6.2;
@@ -202,7 +210,7 @@
 				4CE1D8A61AC837F100FB45CF /* eye.png in Resources */,
 				4CB3A9DC1AC6EB4A00BE16C6 /* MainMenu.xib in Resources */,
 				4CB3A9F41AC6EBEE00BE16C6 /* diceware.wordlist.asc in Resources */,
-				4CD56B001AC8976400ED2B96 /* Icon-512@2x.png in Resources */,
+				4C7CAD561AC9CBFC0009DDC5 /* icon_256x256.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +344,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kipple/Kipple.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Kipple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -347,9 +358,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kipple/Kipple.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Kipple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
