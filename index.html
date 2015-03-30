@@ -66,6 +66,11 @@
                     download a ready-to-run copy of the app, please download it
                     from the Mac App Store. It's only 79p.
                 </p>
+                <p>
+                    For the technically minded, Kipple uses <code>/dev/random
+                    </code>&mdash;a crytographically-secure source of
+                    randomness&mdash;to generate the passphrase.
+                </p>
             </div>
         </div>
 
@@ -76,6 +81,16 @@
                     Just set the number of words you'd like in your passphrase,
                     and check the box to include an additional character if you
                     want. The rest is taken care of by Kipple.
+                </p>
+                <p>
+                    Even though it's possible to keep generating new passphrases
+                    until one is generated that makes some semantic sense, doing
+                    this is unwise. For the password that you generate to be
+                    most effective, it needs to be truly random.
+                    Selecting a passphrase that makes any sense reduces
+                    the benefit of using Kipple&mdash;a smart attacker will
+                    prioritise the combinations of words in the diceware
+                    wordlist that make sense, since humans are drawn to them.
                 </p>
                 <p>
                     If you can't reliably commit the passphrase to memory
@@ -124,7 +139,7 @@
                 <p>
                     Since the passphrase is made up of a <strong>random</strong>
                     sequence of words, rather than letters, numbers or symbols,
-                    it is much more difficult to attack via brute force that a
+                    it is much more difficult to attack via brute force than a
                     password made up of the same number of letters and symbols.
                     It's easier to remember, too. Consider this: even if
                     create a 10 letter password using all of the available
