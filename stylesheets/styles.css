@@ -8574,51 +8574,56 @@ button.close {
 }
 
 /* line 15, ../sass/styles.scss */
+#screenshot {
+  margin: 0 auto;
+}
+
+/* line 19, ../sass/styles.scss */
 .voffset {
   margin-top: 2px;
 }
 
-/* line 16, ../sass/styles.scss */
+/* line 20, ../sass/styles.scss */
 .voffset1 {
   margin-top: 5px;
 }
 
-/* line 17, ../sass/styles.scss */
+/* line 21, ../sass/styles.scss */
 .voffset2 {
   margin-top: 10px;
 }
 
-/* line 18, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 .voffset3 {
   margin-top: 15px;
 }
 
-/* line 19, ../sass/styles.scss */
+/* line 23, ../sass/styles.scss */
 .voffset4 {
   margin-top: 30px;
 }
 
-/* line 20, ../sass/styles.scss */
+/* line 24, ../sass/styles.scss */
 .voffset5 {
   margin-top: 40px;
 }
 
-/* line 21, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 .voffset6 {
   margin-top: 60px;
 }
 
-/* line 22, ../sass/styles.scss */
+/* line 26, ../sass/styles.scss */
 .voffset7 {
   margin-top: 80px;
 }
 
-/* line 23, ../sass/styles.scss */
+/* line 27, ../sass/styles.scss */
 .voffset8 {
   margin-top: 100px;
 }
 
-/* line 24, ../sass/styles.scss */
+/* line 28, ../sass/styles.scss */
 .voffset9 {
   margin-top: 150px;
 }
