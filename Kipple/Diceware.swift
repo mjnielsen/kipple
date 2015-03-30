@@ -38,13 +38,17 @@ class Diceware {
     :returns: UInt
     */
     func roll(low: Int = 1, high: Int = 6) -> Int {
-        var randomBytes = UnsafeMutablePointer<UInt8>.alloc(8)
-        var randomUInt = UnsafeMutablePointer<UInt>.alloc(1)
+        var randomBytes = UnsafeMutablePointer<UInt8>.alloc(2)
+        var randomUInt = UnsafeMutablePointer<UInt16>.alloc(1)
         
-        SecRandomCopyBytes(kSecRandomDefault, 8, randomBytes)
-        randomUInt = unsafeBitCast(randomBytes, UnsafeMutablePointer<UInt>.self)
-        
-        let rand = randomUInt[0]
+        var rand: UInt16 = UInt16(pow(2.0, 16.0) - 1)
+        while rand >= UInt16(pow(2.0, 16.0) - 4) {
+            // Fix modulo making rolls 4, 5, or 6 slightly less likely
+            SecRandomCopyBytes(kSecRandomDefault, 2, randomBytes)
+            randomUInt = unsafeBitCast(randomBytes,
+                UnsafeMutablePointer<UInt16>.self)
+            rand = randomUInt[0]
+        }
         
         randomBytes.destroy()
         randomUInt.destroy()
