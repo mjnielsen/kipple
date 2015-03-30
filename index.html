@@ -8,7 +8,7 @@
     <title>Kipple</title>
 </head>
 <body>
-    <a href="https://github.com/mjnielsen/kipple"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
+    <a href="https://github.com/mjnielsen/kipple"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
     <div class="container">
 
         <div class="row voffset6">
@@ -29,13 +29,128 @@
         </div>
 
         <div class="row voffset6">
-            <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <h3>What is Kipple?</h3>
                 <p>
-                    Kipple!
+                    Kipple is a diceware passphrase generator. It randomly
+                    selects a specified number of words from a list of 7,776
+                    commonly-used words. It can also throw a symbol into one of
+                    the words at random, if you think you can handle that much
+                    excitement.
+                </p>
+                <p>
+                    Kipple is also a word invented by Philip K. Dick is his
+                    novel <em>Do Androids Dream of Electric Sheep?</em>. In the
+                    novel, kipple is the rubbish and detritus that builds up
+                    when humans are no longer present, a concept know as entropy
+                    in thermodynamics. Entropy is also an important concept in
+                    information theory and is used to quantify the strength of
+                    passwords or passphrases.
+                </p>
+                <p>
+                    You can download the source code for Kipple using the
+                    buttons above. If you know what to do, you are free to
+                    build and run Kipple from the source code. But, given
+                    the time that I've put into this project, if you want to
+                    download a ready-to-run copy of the app, please download it
+                    from the Mac app store. It's only 79p.
+                </p>
+
+                <br>
+                <h3>How do I use it?</h3>
+                <p>
+                    Just set the number of words you'd like in your passphrase,
+                    and check the box to include an additional character if you
+                    want. The rest is taken care of by Kipple.
+                </p>
+                <p>
+                    If you can't reliably commit the passphrase to memory
+                    immediately (I know I can't), write it down on a piece of
+                    paper that you can refer to if necessary. <strong>Keep that
+                    piece of paper safe.</strong> Once you've memorised the the
+                    passphrase, burn the paper and flush the ashes down the
+                    toilet.
+                </p>
+                <p>
+                    Remember: any security system is only as strong as its
+                    weakest link. A strong passphrase is only useful if it is
+                    kept a secret. <strong>Never tell anybody all your passphrase.
+                    Seriously.</strong> If you ever suspect that anyone else
+                    knows your passphrase, change it immediately.
+                </p>
+                <p>
+                    It's best to generate your passphrase in a private
+                    place where no one else can see what you're doing. In case
+                    that's not possible, Kipple hides the generated passphrase
+                    by default. Use the unhide button to show the passphrase
+                    only for as long as you need to.
+                </p>
+
+                <br>
+                <h3>Why diceware?</h3>
+                <p>
+                    If you try to come up with a password or phrase that's easy
+                    to remember on your own, it will probably be short. It will
+                    also be predictable&mdash;surprisingly so for anyone who
+                    knows even a little about you.
+                </p>
+                <p>
+                    That's where diceware comes in. Diceware started out as a
+                    more-convenient method of generating passphrases using a
+                    hardware random number generator: dice.
+                </p>
+                <p>
+                    By using the rolls of several dice to select a word at
+                    random from a list, it becomes much more difficult for an
+                    adversary&mdash;a criminal, or even the government*&mdash;
+                    to guess your password.
+                </p>
+                <p>
+                    Since the passphrase is made up of a sequence of words,
+                    rather than letters, numbers or symbols, it is much more
+                    difficult to attack via brute force. Consider this: even if
+                    create a 10 letter password using all of the available
+                    letters, symbols and numbers on your keyboard (of which
+                    there are approximately 100), the number of possible
+                    combinations of those letters, symbols and number is
+                    100<sup>10</sup>&mdash;that's a 1 with 20 zeroes after it.
+                    On the other hand, if you use just a six word diceware
+                    passphrase, using words selected from the list of 7,776,
+                    there are 7,776<sup>6</sup> possible combinations of those
+                    words&mdash; that's approximately 2 with 23 zeroes after
+                    it.
+                </p>
+                <p>
+                    Which do you think is easier to remember? A string of 10
+                    random characters, or a string of six words?
+                </p>
+                <p>
+                    Kipple uses the same list of words that is used in the
+                    manual diceware method to generate a random passphrase for
+                    you, with the added bonus of not having to actually roll
+                    dice.
+                </p>
+                <p>
+                    If you want to know more about diceware, check out the
+                    <a href="http://world.std.com/~reinhold/diceware.html">
+                    original diceware webpage</a>.
+                </p>
+                <p>
+                    Also see this <a href="https://xkcd.com/936/"> relevant
+                    xkcd</a>.
+                </p>
+                <p>
+                    <small>* not that there's much distinction anymore.</small>
                 </p>
             </div>
         </div>
 
+        <div class="row voffset4">
+            <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                <small>The dice image in the Kipple icon was made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> and is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></small>
+            </div>
+        </div>
+        <div class="voffset8"></div>
     </div>
 </body>
 </html>
